@@ -219,7 +219,7 @@ class VendorController extends Controller
 
         // // dd($response->json()); // to know error
         // return redirect('https://toyyibpay.com/' . $bill_code); // return url
-        dd($vendor);
+        dd('Success');
     }
 
     public function payment_status(Request $request){
