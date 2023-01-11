@@ -167,7 +167,8 @@ class VendorController extends Controller
             // 'amount' => $booth_details->price,
             'amount' => 100,
             'senangpay_id' => 'no value',
-            'booth_id' => $booth_details->booth_id,
+            // 'booth_id' => $booth_details->booth_id,
+            'booth_id' => 'B001',
             'details_id' => $request->details_id,
         ]); 
 
