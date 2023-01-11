@@ -164,7 +164,8 @@ class VendorController extends Controller
 
         Membership::create([
             'payer_id' => $vendor->id,
-            'amount' => $booth_details->price,
+            // 'amount' => $booth_details->price,
+            'amount' => 100,
             'senangpay_id' => 'no value',
             'booth_id' => $booth_details->booth_id,
             'details_id' => $request->details_id,
